@@ -1,1 +1,46 @@
-# form
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<h1>FORMULÁRIO DE CADASTRO</h1>
+<main>
+    <form>
+        <label for="nome">NOME</label>
+        <input type="text" id="nome">
+       
+         <label for="telefone">NOME</label>
+        <input type="text" id="nome">
+       
+        <label for="endmail">E-MAIL</label>
+        <input type="email" id="endmail">
+       
+        <label for="datanasc">DATA NASC</label>
+        <input type="date" id="datanasc">
+       
+        <label for="senha">SENHA</label>
+        <input type="password" id="senha">
+       
+        <div>
+            <p>ESCREVA MAIS</p>
+            <textarea cols="30px" rows="40px"></textarea>
+           
+            <input type="radio" id="circuloradio">
+            <label for="circuloradio">TELEFONE</label>
+           
+            <input type="checkbox" id="caixa">
+            <label for="caixa">WHATSAPP</label>
+           
+            <input type="submit" value="ENVIAR DADOS">
+           
+        </div>
+    </form>
+</main>
+
+</body>
+
+
+</html>
